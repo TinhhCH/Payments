@@ -11,7 +11,7 @@ pipeline {
         KUBECTL_HOME = '/Users/a667253/Downloads/google-cloud-sdk/bin/kubectl'
         BUILD_DATE = new Date().format('yyyy-MM-dd')
         IMAGE_TAG = "${BUILD_DATE}-${BUILD_NUMBER}"
-        IMAGE_NAME = 'payments' // Variable for the image name
+        IMAGE_NAME = 'payment' // Variable for the image name
         DOCKER_USERNAME = 'tinhch' // Variable for Docker Hub username
         K8S_NAMESPACE = 'minikube-local'
     }
